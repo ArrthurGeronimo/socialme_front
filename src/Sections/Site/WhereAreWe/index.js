@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './../../../Components/Layouts/Navbar';
 
-export default function About() {
+export default function WhereAreWe() {
   return (
     <>
       <Navbar />
@@ -9,7 +9,7 @@ export default function About() {
         <div class="content-fluid">
             <div class="container">
               <div className="content-generic">
-                <h1>Sobre Nós</h1>
+                <h1>Onde Estamos</h1>
               </div>
             </div>
         </div>

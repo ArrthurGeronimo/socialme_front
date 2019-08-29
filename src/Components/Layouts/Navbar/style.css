@@ -1,0 +1,26 @@
+.header-navbar {
+    min-height: 60px;
+}
+.header-navbar .navbar-wrapper .navbar-logo {
+    height: 60px;
+}
+.header-navbar .navbar-wrapper .navbar-container .nav-left li, .header-navbar .navbar-wrapper .navbar-container .nav-right li {
+    line-height: 4;
+    padding: 0 0px;
+}
+.header-navbar .btn{
+    margin-left: 10px;
+}
+.header-navbar .navbar-wrapper .navbar-logo {
+    background: var(--light) !important;
+}
+.pcoded .pcoded-header {
+    background: var(--light) !important;
+}
+.header-navbar .navbar-logo img{
+    height: 35px;
+}
+.navbar-logo-center {
+    display: block;
+    margin: 0px auto;
+}

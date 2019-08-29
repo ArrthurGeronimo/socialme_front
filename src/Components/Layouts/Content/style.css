@@ -1,0 +1,13 @@
+.content-generic h1{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    color: #555;
+    transform: translateX(-50%) translateY(-50%);
+}

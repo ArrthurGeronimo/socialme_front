@@ -4,6 +4,8 @@
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
+    --redDark: #9b0000;
+    --redLight: #ff5131;
     --orange: #fd7e14;
     --yellow: #ffc107;
     --green: #28a745;
@@ -12,7 +14,7 @@
     --white: #fff;
     --gray: #868e96;
     --gray-dark: #343a40;
-    --primary: #007bff;
+    --primary: #d50000;
     --secondary: #868e96;
     --success: #28a745;
     --info: #17a2b8;
@@ -25,4 +27,82 @@
 .header-navbar .navbar-wrapper .navbar-container .badge {
     -webkit-animation: none;
     animation: none;
+}
+/* BOTÕES */
+.btn {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+.btn-primary{
+    background-color: var(--light);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-primary:hover{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--light);
+}
+.btn-primary:focus{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--light);
+}
+.btn-primary:active{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--light);
+}
+.btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--light);
+}
+.btn-simple{
+    border: none;
+    background-color: transparent;
+    color: var(--primary);
+}
+.btn-simple:hover{
+    border-radius: none;
+    background-color: transparent;
+    color: var(--redDark);
+}
+.btn-simple:focus{
+    border: none;
+    background-color: transparent;
+    color: var(--redDark);
+}
+/* LINK DO NAVBAR */
+.header-navbar .navbar-wrapper .navbar-container .nav-left li>a, .header-navbar .navbar-wrapper .navbar-container .nav-right li>a {
+    font-size: 15px;
+}
+/* SIDEBAR */
+.pcoded[theme-layout=vertical] .pcoded-navbar[pcoded-navbar-position=fixed] {
+    top: 60px;
+}
+.pcoded .pcoded-navbar .nav-list {
+    height: calc(100vh - 60px);
+}
+/* CONTENT */
+.page-header.card {
+    margin: 0px 35px 15px;
+}
+.pcoded-main-container {
+    min-height: calc(100vh - 60px);
+}
+/* CONTENT GENERIC */
+.content-generic h1{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    color: #555;
+    transform: translateX(-50%) translateY(-50%);
 }
